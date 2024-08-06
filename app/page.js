@@ -1,5 +1,6 @@
 import React from 'react'
 import ServiceList from './component/ServiceList';
+import Koran from './component/Koran';
 
 function page() {
   return (
@@ -25,9 +26,10 @@ function page() {
       </div>
     
       <img src="/image/koran.png" className="w-1/3 h-auto max-w-lg rounded-lg shadow-lg mx-20" alt="Image du Koran" />
-      
+       
     </div>
     <ServiceList/>
+    <Koran/>
   </div>
 );
 }

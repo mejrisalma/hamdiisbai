@@ -27,7 +27,7 @@ function ServiceList() {
       };
   return (
     <div style={backgroundStyle}>
-    <div className="flex flex-wrap justify-center gap-6 mx-20">
+    <div className="flex flex-wrap justify-center gap-6 mx-20 mt-10">
       {cardData.map((service, index) => (
         <div key={index} className="w-full sm:w-1/4 lg:w-1/4 mt-10">
           <Service imageSrc={service.imageSrc} title={service.title} />
