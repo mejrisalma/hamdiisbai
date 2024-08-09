@@ -14,8 +14,7 @@ function page() {
       className="absolute top-0 left-0 w-full h-auto opacity-50"
     />
   </div>
-  <RendezVous/>
-  <Koran/>
+
   </div>
   )
 }
