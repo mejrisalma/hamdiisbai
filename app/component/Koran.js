@@ -3,7 +3,7 @@ import React from 'react'
 function Koran() {
   return (
     <div className='mt-10 flex '>
-   
+    
     <img
     src="./image/doua.png"
     alt="Doua"

@@ -5,7 +5,7 @@ import Koran from '../component/Koran'
 
 function page() {
   return (
-    <div className='mt-10'>
+    <div >
     <div className="relative inline-block">
     <img
       src="/image/fontfiltre.png"
