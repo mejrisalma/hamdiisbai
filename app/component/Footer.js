@@ -14,7 +14,7 @@ function Footer() {
         </div>
         
         <hr className='border-white' />
-        <h1 className='py-4 text-smhp'>© 2024 DUNDILL. كل الحقوق محفوظة.</h1>
+        <h1 className='py-4 text-smhp'>©2024 DUNDILL. كل الحقوق محفوظة.</h1>
       </div>
     </div>
   );
