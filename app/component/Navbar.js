@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 function Navbar() {
   return (
-    <div className='bg-white w-full h-[116px] flex items-center fixed'>
+    <div className='bg-white w-full h-[116px] flex items-center'>
       <div className='flex items-center justify-between w-full max-w-screen-lg mx-auto px-4'>
         <div className='flex-1 flex justify-center'>
         <div className='flex-1 flex justify-around'>

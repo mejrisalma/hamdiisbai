@@ -1,8 +1,8 @@
 import React from 'react'
 import Blogs from './Blogs';
 const blogData = [
-    { imageSrc: '/image/blog1.png', titre: 'احتجاج على قانون الحجاب', description:'write blog' ,source:'by source'},
-    { imageSrc: '/image/blog1.png', titre: 'احتجاج على قانون الحجاب  ', description:'write blog',source:'by source' },
+    { imageSrc: '/image/blog1.png', titre: 'احتجاج على قانون الحجاب', description:'Lorem ipsum dolor sit amet, consectetur adipisci motempor incididunt ut labore et dolore magna minimveniam, quis nostrud exercitation' ,source:'by source'},
+    { imageSrc: '/image/blog1.png', titre: 'احتجاج على قانون الحجاب  ', description:'',source:'by source' },
     { imageSrc: '/image/blog1.png', titre: 'احتجاج على قانون الحجاب  ', description:'write blog',source:'by source' }
   ];
 function BlogsList() {

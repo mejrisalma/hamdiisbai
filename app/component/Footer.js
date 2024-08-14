@@ -13,8 +13,10 @@ function Footer() {
           </h1>
         </div>
         
-        <hr className='border-white' />
-        <h1 className='py-4 text-smhp'>©2024 DUNDILL. كل الحقوق محفوظة.</h1>
+        <hr className='border-white mr-40 ml-40' />
+        <a href="https://dundill.com/" className='py-4 text-smhp'>
+        <h1>©2024 DUNDILL. كل الحقوق محفوظة.</h1>
+      </a>
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import React from 'react'
 import Service from '../component/Service'
 import ServiceList from '../component/ServiceList'
 import Koran from '../component/Koran'
+import BlogsList from '../component/BlogsList'
 
 function page() {
   return (
@@ -20,18 +21,12 @@ function page() {
   <div className="min-h-screen bg-gray-100">
   <div className="container mx-auto p-4">
   <div className="flex justify-center mb-10">
-  <img
-    src="/image/titre.png"
-    alt="Titre"
-    className="max-w-full h-auto"
-  />
 </div>
     <ServiceList />
-    <div className='my-10'>
-    <Koran/>
-    </div>
   </div>
+  <Koran/>
 </div>
+<BlogsList/>
   </div>
 
   )
