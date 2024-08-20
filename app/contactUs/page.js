@@ -1,5 +1,4 @@
 import React from 'react'
-import RendezVous from '../component/RendezVous'
 import Koran from '../component/Koran'
 
 function page() {
@@ -69,11 +68,7 @@ function page() {
       </div>
     </div>
   </div>
-<div className='mx-8 space-x-6'>
-<img src='./image/info1.png'></img>
-<img src='./image/info2.png'></img>
-<img src='./image/info3.png'></img>
-</div>
+
   </div>
   <Koran/>
 

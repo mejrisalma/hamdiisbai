@@ -1,16 +1,15 @@
 import React from 'react'
 import Blogs from './Blogs';
 const blogData = [
-    { imageSrc: '/image/blog1.png', titre: 'احتجاج على قانون الحجاب', description:'Lorem ipsum dolor sit amet, consectetur adipisci motempor incididunt ut labore et dolore magna minimveniam, quis nostrud exercitation' ,source:'by source'},
-    { imageSrc: '/image/blog1.png', titre: 'احتجاج على قانون الحجاب  ', description:'',source:'by source' },
-    { imageSrc: '/image/blog1.png', titre: 'احتجاج على قانون الحجاب  ', description:'write blog',source:'by source' }
+    { imageSrc: '/image/blogm.png', titre: 'سحر التفريق بين الأزواج', description:' سحر التفريق هو نوع من السحر يُستخدم لإحداث الفُرقة والشقاق بين الزوجين، مما يؤدي إلى تدهور العلاقة الزوجية وانتهاءها. يُعتقد أن هذا النوع من السحر يُستخدم بواسطة بعض الأشخاص ذوي النوايا السيئة لتدمير حياة الآخرين العائلية وإثارة النزاعات بين الأزواج...'},
+    { imageSrc: '/image/blog1.png', titre: ' السحر: تعريفه وأعراضه ', description:'السحر هو استخدام قوى خارقة للطبيعة للتأثير على حياة الأفراد بطرق سلبية. يُعتبر السحر من الظواهر التي أثارت الفضول والقلق عبر العصور، حيث يسعى البعض لاستخدام هذه القوى لتحقيق مصالح شخصية أو إلحاق الضرر بالآخرين. يتم تنفيذ السحر بطرق متنوعة، سواء باستخدام طلاسم،...' },
+    { imageSrc: '/image/blog1.png', titre: ' الوسواس النفسي: فهمه وأعراضه    ', description:'الوسواس النفسي هو اضطراب نفسي يتمثل في أفكار ملحة ومتكررة، تؤدي إلى القلق والتوتر لدى الشخص المصاب. يشعر الفرد الذي يعاني من الوسواس النفسي بأنه غير قادر على التخلص من هذه الأفكار أو السيطرة عليها، حتى وإن كان يدرك أنها غير منطقية أو مبالغ فيها....' }
   ];
 function BlogsList() {
     const backgroundStyle = {
         backgroundImage: 'url(/image/fondBlogs.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-      
         padding: '20px',
         minHeight: '100vh',
       };
