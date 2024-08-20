@@ -12,6 +12,7 @@ function Popup({ imageSrc, title, description, onClose }) {
         alt={title}
         className="w-full h-2/3 object-cover mb-4 rounded-2xl"
       />
+      
       <h3 className="text-3xl font-semibold mb-4 text-[#D2973B]">{title}</h3>
       <p className="text-lg font-bold text-center">{description}</p>
     </div>
