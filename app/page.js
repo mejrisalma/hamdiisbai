@@ -4,6 +4,7 @@ import Koran from './component/Koran';
 import BlogsList from './component/BlogsList';
 import RendezVous from './component/RendezVous';
 
+
 function Page() {
   return (
     <div>
@@ -39,30 +40,30 @@ function Page() {
           <img src="/image/cadre.png" alt="Cadre" className="w-auto h-auto max-w-full" />
         </div>
       </div>
-
-      {/* Information Section */}
-      <div className='mt-32 mx-4 lg:mx-10'>
-        <h1 className="font-poppins text-3xl lg:text-[48px] font-bold leading-tight text-amber-400 text-right mx-4 lg:mx-36 my-10">
+      
+      <div className='mt-20 mx-4 lg:mx-10'>
+      <div className="flex flex-col lg:flex-row items-start mb-20">
+        <div className="flex-1 mr-0 lg:mr-28">
+          <h1 className="font-poppins text-3xl lg:text-[48px] font-bold leading-tight text-amber-400 text-right mx-10 lg:mx-10 my-10">
           معلومات عن المعالج
-        </h1>
-        <div className="flex flex-col lg:flex-row items-start mb-20">
-          <div className="flex-1 mr-0 lg:mr-28">
-            <div className="space-y-6 mt-0">
-              <div>
-                <h2 className="text-xl lg:text-2xl font-semibold mx-4 lg:mx-8 text-[#4D4D4D]">منهجنا</h2>
-                <p className='mx-4 lg:mx-8 text-[#4D4D4D]'>يعتمد المعالج حمدي صبي في علاجاته على تلاوة الآيات القرآنية والأدعية الصحيحة، مستندين إلى السنة النبوية الشريفة. نهدف إلى نشر الوعي بأهمية العلاج بالقرآن الكريم وتعزيز الثقة بالله تعالى كأفضل علاج لجميع المشاكل الصحية والروحانية.</p>
-              </div>
-              <div>
-                <h2 className="text-xl lg:text-2xl font-semibold mx-4 lg:mx-8 text-[#4D4D4D]">رؤيتنا</h2>
-                <p className='mx-4 lg:mx-8 text-[#4D4D4D]'>نسعى إلى أن نكون ملاذًا آمنًا لكل من يبحث عن الشفاء بالقرآن الكريم. نؤمن بأن القرآن الكريم يحمل الشفاء لكل داء، ونحرص على تقديم خدماتنا بروح من الرحمة والتفاني.</p>
-              </div>
+          </h1>
+          <div className="space-y-6 mt-0">
+            <div>
+              <h2 className="text-xl lg:text-2xl font-semibold mx-4 lg:mx-8 text-[#4D4D4D]">منهجنا</h2>
+              <p className='mx-4 lg:mx-8 text-[#4D4D4D]'>يعتمد المعالج حمدي صبي في علاجاته على تلاوة الآيات القرآنية والأدعية <br></br>الصحيحة، مستندين إلى السنة النبوية الشريفة. نهدف إلى نشر الوعي بأهمية<br></br> العلاج بالقرآن الكريم وتعزيز الثقة بالله تعالى كأفضل علاج لجميع المشاكل الصحية والروحانية.</p>
+            </div><br></br>
+            <div>
+              <h2 className="text-xl lg:text-2xl font-semibold mx-4 lg:mx-8 text-[#4D4D4D]">رؤيتنا</h2>
+              <p className='mx-4 lg:mx-8 text-[#4D4D4D]'>نسعى إلى أن نكون ملاذًا آمنًا لكل من يبحث عن الشفاء بالقرآن الكريم. نؤمن بأن <br></br>القرآن الكريم يحمل الشفاء لكل داء، ونحرص على تقديم خدماتنا بروح من الرحمة <br></br>والتفاني.</p>
             </div>
           </div>
-          <img src="/image/koraan.png" className="mt-6 lg:mt-0 lg:ml-11 max-w-full" alt="Image du Koran" />
         </div>
-      </div>
 
-      {/* Additional Sections */}
+        <img src="/image/koraan.png" className="mt-6 lg:mt-20 lg:ml-11 max-w-full"  alt="Image du Koran" />
+      </div>
+    </div>
+    
+
       <ServiceList />
       <Koran />
       <BlogsList />
