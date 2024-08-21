@@ -20,5 +20,7 @@ function page() {
     <Koran/>
 </div></div>
 
-  
+  )
+}
+
 export default page

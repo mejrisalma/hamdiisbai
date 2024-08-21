@@ -3,7 +3,7 @@ import React from 'react'
 function Service({ imageSrc, title }) {
 
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+    <div className=" w-full rounded overflow-hidden shadow-lg bg-white">
       <img
         className="w-full h-48 object-cover"
         src={imageSrc}

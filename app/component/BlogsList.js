@@ -23,7 +23,7 @@ function BlogsList() {
     </div>
     <div className="flex flex-wrap justify-center gap-6 mx-20 mt-10">
       {blogData.map((blog, index) => (
-        <div key={index} className="w-full sm:w-1/4 lg:w-1/4 mt-10">
+        <div key={index} className="w-full  lg:w-1/4 mt-10">
           <Blogs imageSrc={blog.imageSrc} titre={blog.titre} description={blog.description} source={blog.source}/>
         </div>
       ))}
